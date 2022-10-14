@@ -1,0 +1,24 @@
+Source: node-require-directory
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 3.9.8
+Homepage: https://github.com/troygoode/node-require-directory/
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-require-directory.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-require-directory.git
+
+Package: node-require-directory
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: require all files in a directory
+ Recursively iterates over specified directory, require()'ing each file, and
+ returning a nested hash structure containing those modules. 
+ .
+ Node.js is an event-based server-side JavaScript engine.
