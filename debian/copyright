@@ -1,7 +1,8 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: require-directory
 Upstream-Contact: http://github.com/troygoode/node-require-directory/issues/
 Source: https://github.com/troygoode/node-require-directory/
+ https://registry.npmjs.org/@types/require-directory
 
 Files: *
 Copyright: 2016 Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)
@@ -9,6 +10,10 @@ License: Expat
 
 Files: debian/*
 Copyright: 2016 Pirate Praveen <praveen@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
@@ -31,4 +36,3 @@ License: Expat
  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
